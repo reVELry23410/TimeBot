@@ -52,4 +52,4 @@ client.setInterval( () => {
 	client.guilds.forEach(guildone =>{
 		guildone.members.get('659805444897767453').setNickname(timewrite()); //find the bot's nickname on a server and then set its nickname to the time
 	});
-}, 5000);
+}, 60000);
